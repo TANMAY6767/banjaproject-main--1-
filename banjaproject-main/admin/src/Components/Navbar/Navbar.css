@@ -1,0 +1,18 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .nav-logo {
+    height: 50px;
+  }
+  
+  .nav-profile {
+    height: 50px;
+    border-radius: 50%;
+  }

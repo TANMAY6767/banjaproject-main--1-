@@ -1,0 +1,85 @@
+/* AddProduct.css */
+
+.add-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.addproduct-itemfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.addproduct-itemfield p {
+  margin-bottom: 10px;
+}
+
+.addproduct-itemfield input,
+.addproduct-itemfield select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.addproduct-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addproduct-thumnail-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.addproduct-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.AddProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.AddProduct form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.AddProduct form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.AddProduct form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.AddProduct form button:hover {
+  background-color: #0056b3;
+}
